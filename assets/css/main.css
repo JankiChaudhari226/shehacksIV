@@ -568,6 +568,23 @@ a:not([href]):not([tabindex]) {
     opacity: 1;
   }
 }
+.btn-blue {
+  color: #0a2338 !important;
+}
+.btn-blue :hover {
+  background-color: transparent !important;
+  border-radius: transparent !important;
+}
+.btn-secondary2 {
+  background-color: transparent;
+  border-color: transparent;
+  color: #0a2338;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.btn-secondary2 :hover {
+  background-color: transparent !important;
+}
 .btn {
   font-size: 14px;
   padding: 10px 30px;
